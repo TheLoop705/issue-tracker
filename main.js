@@ -10,30 +10,6 @@ function fetchIssues() {
     const assignedTo = issues[i].assignedTo;
     const status = issues[i].status;
 
-    // issuesList.innerHTML +=
-    //   "<div class='well'>" +
-    //   "<h6>Issue ID: </h6>" +
-    //   id +
-    //   "</h6>" +
-    //   "<p><span class='label label-info'>" +
-    //   status +
-    //   "</span></p>" +
-    //   "<h3>" +
-    //   desc +
-    //   "</h3>" +
-    //   "<p><span class='glyphicon glyphicon-time'></span>" +
-    //   severity +
-    //   " " +
-    //   "<span class='glyphicon glyphicon-user'></span>" +
-    //   assignedTo +
-    //   "</p>" +
-    //   "<a href='#' class='btn btn-warning' onclick='setStatusClosed(\"" +
-    //   id +
-    //   "\")'>Close</a>" +
-    //   "<a href='#' class='btn btn-danger' onclick='deleteIssue(\"" +
-    //   id +
-    //   "\")'>Delete</a>" +
-    //   "</div>";
     issuesList.innerHTML +=
       '<div class="well">' +
       "<h6>Issue ID: " +
